@@ -16,7 +16,7 @@ namespace HotelWS.Controllers
     public class RoomsController : ApiController
     {
         private HotelDBContext db = new HotelDBContext();
-        // test en ændring til git
+        
         // GET: api/Rooms
         public IQueryable<Room> GetRooms()
         {
